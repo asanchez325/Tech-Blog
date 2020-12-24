@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { Comment, User, Post } = require('../../models');
 
 router.get('/', (req, res) => {
+console.log('======================');
   Comment.findAll({
     attributes: [
         'id',
