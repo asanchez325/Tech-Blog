@@ -5,12 +5,11 @@
   </h2>
   <form class="edit-post-form">
     <div>
-      <input name="post-title" type="text" value="{{title}}" />
-      <span>({{post_content}})</span>
+      <input id="post-title" type="text" name="post-title" value="{{post.title}}" />
+      <input id="post-content" type="text" name="post-title" value="{{post_content}}" />
     </div>
     <div>
-      |
-      <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+      <a href="/post/{{post.id}}"{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
     <button type="submit">Save post</button>
     <button type="button" class="delete-post-btn">Delete post</button>
@@ -26,3 +25,9 @@
     <button type="submit">add comment</button>
   </div>
 </form>
+
+{{> comments post.comments}}
+
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
+<script src="/javascript/comment.js"></script>

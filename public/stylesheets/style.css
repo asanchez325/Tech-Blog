@@ -141,11 +141,12 @@ header {
   padding: .5%;
 }
 
-h3 {
+area {
   color: black;
   font-weight: bold;
+  font-size: x-large;
   transition: color .1s;
-  padding: 5%;
+  padding: 0;
  
 }
 
@@ -164,6 +165,8 @@ a {
   font-weight: bold;
   transition: color .1s;
   padding: 1.5%;
+  -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
 }
 
 a:hover {
@@ -284,7 +287,7 @@ main {
   border: black;
   border-width: 3pt;
   padding: .5%;
-  border: 1px solid #3486eb;
+  border: 1px solid black;
   min-width: 100%;
   min-height: 30px;
 }
@@ -294,10 +297,30 @@ main {
   border: black;
   border-width: 3pt;
   padding: .5%;
-  border: 1px solid #3486eb;
+  border: 1px solid black;
   min-width: 100%;
   min-height: 100px;
 }
+
+.edit-post-form #post-title {
+  margin-bottom: 5%;
+  border: black;
+  border-width: 3pt;
+  padding: .5%;
+  border: 1px solid black;
+  min-width: 100%;
+  min-height: 30px;
+}
+.edit-post-form #post-content {
+  margin-bottom: 5%;
+  border: black;
+  border-width: 3pt;
+  padding: .5%;
+  border: 1px solid black;
+  min-width: 100%;
+  min-height: 100px;
+}
+
 
 .edit-post-form {
   width: 300px;
