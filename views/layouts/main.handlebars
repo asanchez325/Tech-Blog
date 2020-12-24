@@ -6,23 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
+
+       
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Tech Blog</a>
-      </h1>
-      <nav>
+  <div class="top-bar">
+    <div class="top-bar-left">
+       <ul class="menu">
         {{#if loggedIn}}
-            <a href="/dashboard">dashboard</a>
-            <button id="logout" class="btn-no-style">logout</button>
+            <a class="menu-text" href="/">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            <a><button id="logout" class="btn-no-style">Logout</button></a>
         {{else}}
-            <a href="/login">login</a>
+            <a href="/login">Login</a>
         {{/if}}
-    </nav>
-    </header>
+    </ul>
+    </div>
+    <div class="top-bar-title">
+        Tech Blog
+    </div>
+  </div>
     <main>
       {{{ body }}}
     </main>
