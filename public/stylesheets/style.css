@@ -281,6 +281,12 @@ main {
   opacity: .6;
 }
 
+input[type=text] {
+  word-wrap: break-word;
+  word-break: break-all;
+  height: 80px;
+}
+
 
 .new-post-form #post-title {
   margin-bottom: 5%;
