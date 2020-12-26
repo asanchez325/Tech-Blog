@@ -6,7 +6,7 @@
   <form class="edit-post-form">
     <div>
       <input id="post-title" type="text" name="post-title" value="{{post.title}}" />
-      <input id="post-content" type="text" name="post-title" value="{{post_content}}" />
+      <input id="post-content" type="text" name="post-content" value="{{post_content}}" />
     </div>
     <div>
       <a href="/post/{{post.id}}"{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
