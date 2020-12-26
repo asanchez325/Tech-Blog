@@ -32,7 +32,7 @@ The app follows the MVC paradigm in its architectural structure, using Handlebar
 
 ## Preview
 ![alt preview](assets/Capture1.gif) 
-[Visit the deployed app here!](https://notetaker33.herokuapp.com/)
+[Visit the deployed app here!](https://pacific-ocean-98839.herokuapp.com/)
 ---
 
 ## Tests
