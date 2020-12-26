@@ -110,13 +110,13 @@
 
 
     .signup-form {
-      margin: 12% auto;
+      margin: 3% auto;
       width: 19em;
       text-align: center;
       position: relative;
       border: 3px solid black;
       border-radius: 0;
-      background: #fefefe;
+      background: #46b682;
       -webkit-animation: moveDown .3s;
       -moz-animation: moveDown .3s;
       animation: moveDown .3s;
@@ -125,13 +125,13 @@
       animation-fill-mode: forwards;}
 
       .login-form {
-        margin: 12% auto;
+        margin: 3% auto;
         width: 19em;
         text-align: center;
         position: relative;
         border: 3px solid black;
         border-radius: 0;
-        background: #fefefe;
+        background: #46b682;
         -webkit-animation: moveDown .3s;
         -moz-animation: moveDown .3s;
         animation: moveDown .3s;
