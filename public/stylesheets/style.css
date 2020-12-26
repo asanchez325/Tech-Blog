@@ -116,7 +116,7 @@
       position: relative;
       border: 3px solid black;
       border-radius: 0;
-      background: #46b682;
+      background: #fefefe;
       -webkit-animation: moveDown .3s;
       -moz-animation: moveDown .3s;
       animation: moveDown .3s;
@@ -131,7 +131,7 @@
         position: relative;
         border: 3px solid black;
         border-radius: 0;
-        background: #46b682;
+        background: #fefefe;
         -webkit-animation: moveDown .3s;
         -moz-animation: moveDown .3s;
         animation: moveDown .3s;
