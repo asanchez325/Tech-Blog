@@ -31,7 +31,7 @@ A CMS-style blog, where developers can publish their blog posts and comment on o
 The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
 ## Preview
-![alt preview](assets/Capture1.gif) 
+![alt preview](assets/Capture1.gif) <br/>
 [Visit the deployed app here!](https://pacific-ocean-98839.herokuapp.com/)
 ---
 
